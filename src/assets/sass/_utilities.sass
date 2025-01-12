@@ -174,3 +174,23 @@
     object-position: right center
   &.--bottom
     object-position: center bottom
+
+.u-editor
+  line-height: 1.7
+  overflow: auto
+  a, button
+    border-bottom: 1px solid var(--color-primary)
+    transition: color .3s
+    &:hover
+      color: var(--color-primary)
+  ol, ul
+    list-style: revert
+    margin: revert
+  ol
+    padding-left: 3.6rem
+  ul
+    padding-left: 2.4rem
+  button, h1, h2, h3, h4, h5, h6, p 
+    margin: revert
+  span
+    display: inline
